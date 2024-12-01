@@ -26,8 +26,8 @@ pip install peft
 pip install pypdf
 pip install transformers
 pip install -U langchain-community
-
-##Workflow
+```
+##**Workflow**
 
 1. Document Loading
 Documents (e.g., PDFs) are loaded using PyPDFLoader.
@@ -47,7 +47,8 @@ Retrieve relevant document chunks using FAISS and generate answers using a T5 mo
 6. User Interaction
 Use Gradio to provide an interactive interface where users can input questions and get answers.
 
-##Customization
+## **Customization**
+
 Replace the Model
 The current model is T5. To use a different model like GPT-3.5 or LLaMA:
 Update the AutoModelForSeq2SeqLM and tokenizer initialization.
@@ -56,12 +57,12 @@ Add Custom Documents
 Replace the existing document (e.g., a PDF) with your own.
 Update the loading and embedding steps to include the new data.
 
-##References
+## **References**
 LangChain Documentation
 Sentence-Transformers
 FAISS
 Hugging Face Transformers
 Gradio
 
-##License
+## **License**
 This project is open-source and available under the MIT License.
