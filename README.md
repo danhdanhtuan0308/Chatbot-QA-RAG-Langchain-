@@ -27,7 +27,7 @@ pip install pypdf
 pip install transformers
 pip install -U langchain-community
 ```
-##**Workflow**
+## **Workflow**
 
 1. Document Loading
 Documents (e.g., PDFs) are loaded using PyPDFLoader.
